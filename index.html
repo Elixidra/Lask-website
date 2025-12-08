@@ -4,6 +4,224 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lask | Floating Productivity Panel for iOS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <span>L</span>
+        </div>
+        <div class="brand-name">
+          <span class="brand-title">Lask</span>
+          <span class="brand-sub">Floating panel for iOS</span>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#panel">Panel</a>
+        <a href="#flow">Workflow</a>
+        <a href="#cta">Contact</a>
+      </nav>
+      <div class="top-actions">
+        <a class="link" href="#demo">How it looks</a>
+        <a class="button" href="#cta">Download</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="demo">
+        <div class="hero-copy">
+          <div class="pill">Paid iOS app · Floating toolbar</div>
+          <h1>Focus on your work. Lask keeps your tools floating in reach.</h1>
+          <p class="lede">Lask is a lightweight productivity panel for iPhone and iPad that stays above your apps. Launch timers, jot notes, and reuse your clipboard without breaking flow.</p>
+          <div class="hero-actions">
+            <a class="button" href="#cta">Download for iOS</a>
+            <a class="button ghost" href="#panel">See the panel</a>
+            <div class="trust">No clutter. Just instant access when you need it.</div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="glass phone-card">
+            <div class="status">Floating Panel · Live</div>
+            <div class="panel-preview">
+              <div class="panel-row">
+                <div class="chip active">Timer</div>
+                <div class="chip">Notes</div>
+                <div class="chip">Clipboard</div>
+                <div class="chip">Shortcuts</div>
+              </div>
+              <div class="panel-body">
+                <div class="panel-block">
+                  <span class="label">Focus timer</span>
+                  <strong>25:00</strong>
+                  <button aria-label="start timer">Start</button>
+                </div>
+                <div class="panel-block">
+                  <span class="label">Quick note</span>
+                  <p>Hold ⌘ + Space to capture text from any app.</p>
+                </div>
+                <div class="panel-block ghost">
+                  <span class="label">Clipboard</span>
+                  <p>Last 5 copies stay here for reuse.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="badge">
+            <span class="badge-dot"></span>
+            Stays on top of every app
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="section-head">
+          <h2>Everything essential, one glide away.</h2>
+          <p>Curate the shortcuts you need and pin them to the floating panel. Lask respects your screen space while keeping momentum high.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="tile">
+            <div class="tile-icon">⏱</div>
+            <div class="tile-body">
+              <h3>Timers that follow you</h3>
+              <p>Start focus or countdown timers without leaving the app you're in.</p>
+            </div>
+          </article>
+          <article class="tile">
+            <div class="tile-icon">📝</div>
+            <div class="tile-body">
+              <h3>Quick notes</h3>
+              <p>Capture ideas in a minimal pad that floats at the edge of your screen.</p>
+            </div>
+          </article>
+          <article class="tile">
+            <div class="tile-icon">📋</div>
+            <div class="tile-body">
+              <h3>Clipboard recall</h3>
+              <p>Keep your last copies ready to paste back with a tap.</p>
+            </div>
+          </article>
+          <article class="tile">
+            <div class="tile-icon">✨</div>
+            <div class="tile-body">
+              <h3>Custom shortcuts</h3>
+              <p>Pin the actions you repeat: open links, launch apps, or trigger commands.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section panel-section" id="panel">
+        <div class="panel-card">
+          <div class="panel-info">
+            <div class="pill">Designed for iPhone & iPad</div>
+            <h2>A floating bar that's calm, not noisy.</h2>
+            <p>Lask slides to the side until you need it. When summoned, it gives you a crisp set of tools with no extra chrome, shadows, or distractions.</p>
+            <ul class="panel-list">
+              <li>Lives above every app, including Split View and Slide Over.</li>
+              <li>Handoff between devices so your clips and timers stay in sync.</li>
+              <li>Privacy by default — everything stays on your device.</li>
+            </ul>
+            <div class="panel-actions">
+              <a class="button" href="#cta">Download now</a>
+              <a class="link" href="#flow">See how it fits your day</a>
+            </div>
+          </div>
+          <div class="panel-visual">
+            <div class="layer phone"></div>
+            <div class="layer overlay"></div>
+            <div class="layer panel">
+              <div class="mini-title">Lask panel</div>
+              <div class="mini-row">
+                <span>Timer</span>
+                <strong>12:30</strong>
+              </div>
+              <div class="mini-row">
+                <span>Notes</span>
+                <strong>2 drafts</strong>
+              </div>
+              <div class="mini-row">
+                <span>Clipboard</span>
+                <strong>5 items</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section steps" id="flow">
+        <div class="section-head">
+          <h2>Set up once. Glide through the rest.</h2>
+          <p>In a few minutes you can tailor the panel to your routine and keep it accessible with gestures you already use.</p>
+        </div>
+        <div class="step-grid">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h3>Place it where you like</h3>
+            <p>Dock the panel to the left or right edge; it tucks away until you slide it out.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h3>Pick your essentials</h3>
+            <p>Choose timers, notes, clipboard slots, and shortcuts tailored to your tasks.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <h3>Stay in flow</h3>
+            <p>Switch apps, answer messages, and keep your toolkit floating beside you.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta" id="cta">
+        <div class="cta-card">
+          <div>
+            <div class="pill">Start with the essentials</div>
+            <h2>Download Lask and keep focus within thumb reach.</h2>
+            <p>Tell us where to send the download link and early access builds.</p>
+          </div>
+          <form class="cta-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Alex Smith" required />
+            </label>
+            <label>
+              Work email
+              <input type="email" name="email" placeholder="alex@company.com" required />
+            </label>
+            <label>
+              How you'll use Lask
+              <textarea name="use" rows="3" placeholder="Timers for meetings, clipboard for research…"></textarea>
+            </label>
+            <button type="submit" class="button">Get the download</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <span>L</span>
+        </div>
+        <div class="brand-name">
+          <span class="brand-title">Lask</span>
+          <span class="brand-sub">Quiet power for iOS</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#features">Features</a>
+        <a href="#panel">Panel</a>
+        <a href="#flow">Workflow</a>
+        <a href="mailto:hello@lask.studio">hello@lask.studio</a>
+      </div>
+    </footer>
+  </div>
   <title>Lask | Modern Data Ops Studio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
