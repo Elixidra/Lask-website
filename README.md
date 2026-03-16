@@ -21,5 +21,6 @@ No frameworks, build tools, npm packages, or external dependencies are used.
 
 ## Notes
 
-- Real product screenshots will be added later (placeholder screenshot blocks are currently used).
-- Final purchase and download destination links will be added later.
+- Main CTA is **Download LASK**, linking to GitHub releases: `https://github.com/Elixidra/lask-updates/releases`.
+- Pricing on the site is informational only (`€29 one-time purchase`), with licensing/activation handled in the app workflow.
+- Screenshot areas currently use polished placeholders until product captures are finalized.
