@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LASK | Native macOS Productivity App</title>
+    <title>LASK | Native macOS Productivity, Faster</title>
     <meta
       name="description"
-      content="LASK is a native macOS productivity app with a cursor-centered radial menu for screenshots, annotation, clipboard tools, notes, and quick actions."
+      content="LASK is a native SwiftUI productivity app for macOS with fast quick actions, notes, shortcuts, screenshots, and lightweight workflow tools."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -15,122 +15,136 @@
       <nav class="nav container">
         <a class="logo" href="#top" aria-label="LASK home">LASK</a>
         <div class="nav-links">
-          <a href="#features">Features</a>
+          <a href="#why">Why LASK</a>
+          <a href="#workflows">Workflows</a>
           <a href="#pricing">Pricing</a>
-          <a href="#screenshots">Screenshots</a>
-          <a href="#license">Licensing</a>
-          <a href="#trust">Trust</a>
         </div>
-        <a class="button button-gradient button-small" href="https://github.com/Elixidra/lask-updates/releases">Download LASK</a>
+        <a class="button button-quiet button-small" href="https://github.com/Elixidra/lask-updates/releases">Get LASK v1</a>
       </nav>
     </header>
 
     <main id="top">
       <section class="hero container section">
-        <div class="hero-copy">
-          <p class="eyebrow">Native for macOS</p>
-          <p class="brand-presence">LASK</p>
-          <h1>LASK helps you work faster on macOS.</h1>
-          <p class="subheadline">
-            A polished, keyboard-and-cursor friendly workspace for capture, markup, clipboard flow,
-            and quick notes. Built in SwiftUI to feel right at home on macOS.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-gradient" href="https://github.com/Elixidra/lask-updates/releases">Download LASK</a>
-          </div>
+        <p class="eyebrow">Native SwiftUI for macOS</p>
+        <h1>Move through your day faster on Mac.</h1>
+        <p class="subheadline">
+          LASK keeps quick actions, notes, shortcuts, and capture workflows one gesture away—without leaving focus.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://github.com/Elixidra/lask-updates/releases">LASK v1</a>
+          <a class="button button-secondary" href="/404.html">LASK v2</a>
         </div>
-        <div class="hero-visual" aria-hidden="true">
-          <div class="hero-glow"></div>
-          <div class="showcase-card">
-            <div class="showcase-header">
-              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+
+        <div class="hero-preview" aria-label="LASK product preview">
+          <article class="window-card window-main">
+            <div class="window-topbar">
+              <span></span><span></span><span></span>
+              <p>Quick Actions</p>
             </div>
-            <div class="showcase-body">
-              <div class="preview-tile large">Radial Command Surface</div>
-              <div class="preview-grid">
-                <div class="preview-tile">Capture Flow</div>
-                <div class="preview-tile">Annotation Stack</div>
-                <div class="preview-tile">Clipboard Timeline</div>
-                <div class="preview-tile">Quick Notes</div>
+            <div class="window-body">
+              <div class="chip-row">
+                <span class="chip active">General</span>
+                <span class="chip">Radial Menu</span>
+                <span class="chip">Shortcuts</span>
+                <span class="chip">Capture</span>
+              </div>
+              <div class="setting-line"></div>
+              <div class="setting-card">
+                <strong>Accessibility granted</strong>
+                <span>Auto-paste, hotkeys, automation</span>
+              </div>
+              <div class="setting-card">
+                <strong>Screen recording granted</strong>
+                <span>Fast screenshot and markup workflow</span>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="features" class="container section">
-        <h2>Features</h2>
-        <div class="grid cards-3">
-          <article class="feature-card">
-            <h3>Radial Menu</h3>
-            <p>Trigger core tools instantly from a cursor-centered radial interface.</p>
           </article>
-          <article class="feature-card">
-            <h3>Screenshot Capture</h3>
-            <p>Capture regions quickly and move directly into your workflow.</p>
-          </article>
-          <article class="feature-card">
-            <h3>Annotation Editor</h3>
-            <p>Mark up screenshots with focused tools and clean visual output.</p>
-          </article>
-          <article class="feature-card">
-            <h3>Clipboard History</h3>
-            <p>Find recent items fast without interrupting your current task.</p>
-          </article>
-          <article class="feature-card">
-            <h3>Quick Notes</h3>
-            <p>Capture temporary ideas instantly and keep your momentum.</p>
-          </article>
-          <article class="feature-card">
-            <h3>Native macOS Experience</h3>
-            <p>Designed for macOS with smooth performance and local-first behavior.</p>
+          <article class="window-card window-side">
+            <h3>Radial menu</h3>
+            <div class="radial-wheel">
+              <span>Notes</span><span>Capture</span><span>History</span><span>Settings</span>
+            </div>
           </article>
         </div>
       </section>
 
-      <section id="pricing" class="container section card">
+      <section id="why" class="container section">
+        <h2>Why LASK</h2>
+        <div class="grid value-grid">
+          <article class="feature-card">
+            <h3>Fast Mac workflows</h3>
+            <p>Launch key actions instantly from cursor-friendly tools built for momentum.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Notes & quick capture</h3>
+            <p>Drop text, screenshots, and temporary thoughts in seconds without app switching.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Keyboard shortcuts</h3>
+            <p>Assign shortcuts that feel native and keep your hands on the keyboard.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Native SwiftUI experience</h3>
+            <p>Designed for macOS clarity, smoothness, and a lightweight desktop footprint.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflows" class="container section">
+        <h2>Product workflows</h2>
+        <div class="workflow-stack">
+          <article class="workflow-card">
+            <div>
+              <p class="label">01</p>
+              <h3>Radial menu & quick actions</h3>
+              <p>Bring core actions to your cursor with a compact wheel for capture, notes, and utilities.</p>
+            </div>
+            <div class="preview-frame">
+              <p>Cursor-centered action ring with configurable commands.</p>
+            </div>
+          </article>
+
+          <article class="workflow-card">
+            <div>
+              <p class="label">02</p>
+              <h3>Notes and rapid capture</h3>
+              <p>Clip what matters now, organize later. Keep lightweight notes close to your active workflow.</p>
+            </div>
+            <div class="preview-frame notes-frame">
+              <ul>
+                <li>Meeting prep checklist</li>
+                <li>Snippet: API token rotation</li>
+                <li>Follow up on design review</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="workflow-card">
+            <div>
+              <p class="label">03</p>
+              <h3>Shortcuts + screenshot markup</h3>
+              <p>Capture fast, mark clearly, and share in one flow with keyboard-first controls.</p>
+            </div>
+            <div class="preview-frame editor-frame">
+              <span class="line"></span>
+              <span class="line short"></span>
+              <span class="line"></span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="pricing" class="container section card pricing-card">
         <h2>Pricing</h2>
-        <p class="price">€29 one-time purchase</p>
-        <p class="muted">
-          Licensing is informational on this website only. Purchase, license key delivery,
-          activation, and validation are handled in the product workflow inside LASK.
-        </p>
-      </section>
-
-      <section id="screenshots" class="container section">
-        <h2>Screenshots</h2>
-        <div class="grid cards-5">
-          <div class="shot-placeholder">Radial Menu</div>
-          <div class="shot-placeholder">Screenshot Capture</div>
-          <div class="shot-placeholder">Annotation Editor</div>
-          <div class="shot-placeholder">Clipboard History</div>
-          <div class="shot-placeholder">Quick Notes</div>
-        </div>
-      </section>
-
-      <section id="license" class="container section card">
-        <h2>Licensing</h2>
-        <ul class="trust-list">
-          <li>One-time purchase for the LASK v1 series.</li>
-          <li>License key and activation are completed through the in-app flow.</li>
-          <li>Internet access is used for activation, validation, and update checks.</li>
-          <li>Your core working content remains local on your device.</li>
-        </ul>
-      </section>
-
-      <section id="trust" class="container section card">
-        <h2>Trust</h2>
-        <ul class="trust-list">
-          <li>Local-first behavior for day-to-day product content.</li>
-          <li>No analytics and no advertising trackers.</li>
-          <li>Support by email at <a href="mailto:lask@elixidra.com">lask@elixidra.com</a>.</li>
-        </ul>
+        <p class="price">€29</p>
+        <p class="muted">One-time purchase for LASK v1. Pricing here is informational only.</p>
+        <p class="muted">Licensing, key delivery, activation, and validation happen in-app.</p>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <div>© 2026 LASK. All rights reserved.</div>
+        <div>© 2026 LASK. Native productivity for macOS.</div>
         <div class="footer-links">
           <a href="privacy.html">Privacy Policy</a>
           <a href="terms.html">Terms of Service</a>
