@@ -11,9 +11,10 @@ No frameworks, build tools, npm packages, or external dependencies are used.
 
 ## Files
 
-- `index.html` — single-page landing page
-- `styles.css` — shared styling for landing and legal pages
-- `script.js` — small progressive enhancement for smooth anchor scrolling
+- `index.html` — premium one-page landing page
+- `404.html` — branded coming-soon page for LASK v2
+- `styles.css` — shared styling for landing and legal/support pages
+- `script.js` — smooth scrolling + subtle CTA interaction
 - `privacy.html` — Privacy Policy
 - `terms.html` — Terms of Service
 - `refund.html` — Refund Policy
@@ -21,6 +22,7 @@ No frameworks, build tools, npm packages, or external dependencies are used.
 
 ## Notes
 
-- Main CTA is **Download LASK**, linking to GitHub releases: `https://github.com/Elixidra/lask-updates/releases`.
-- Pricing on the site is informational only (`€29 one-time purchase`), with licensing/activation handled in the app workflow.
-- Screenshot areas currently use polished placeholders until product captures are finalized.
+- Hero includes two release-track buttons:
+  - **LASK v1** → GitHub releases: `https://github.com/Elixidra/lask-updates/releases`
+  - **LASK v2** → branded coming-soon page: `/404.html`
+- Pricing on the site is informational only (`€29`), with licensing/activation handled in the app workflow.
